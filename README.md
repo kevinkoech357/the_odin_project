@@ -1,0 +1,2 @@
+# Introduction
+The Odin Project is an open source curriculum that is mainly centered in teaching web development using HTML, CSS, JS and/or Ruby. This repository contains all the challenges in the course.
