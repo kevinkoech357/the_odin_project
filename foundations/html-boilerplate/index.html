@@ -1,0 +1,51 @@
+<!--
+    The doctype’s purpose is to tell the browser what version of HTML it should use to render the document.
+-->
+<!DOCTYPE html>
+<!--
+    After we declare the doctype, we need to provide an <html> element. 
+    This is what’s known as the root element of the document, 
+    meaning that every other element in the document will be a descendant of it.
+
+    lang specifies the language of the text content in that element.
+    This attribute is primarily used for improving accessibility of the webpage
+-->
+<html lang="en">
+<!--
+    The <head> element is where we put important meta-information about our webpages,
+    and stuff required for our webpages to render correctly in the browser.
+    Inside the <head>, we should not use any element that displays content on the webpage.
+-->
+<head>
+    <!--
+        UTF-8 encoding is very important because 
+        it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+    -->
+    <meta charset="UTF-8">
+    <!--
+        The http-equiv attribute specifies an HTTP header that is equivalent to a specific HTML meta tag.
+        In this case, X-UA-Compatible is the HTTP header that defines how the browser should render the page.
+        The content attribute specifies the value for the HTTP header, which in this case is set to "IE=edge".
+        The value "IE=edge" tells Internet Explorer to use the latest version of its rendering engine to display the web page.
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+        The name attribute specifies the name of the meta tag.
+        The viewport meta tag is used to control how the web page is displayed on different devices and screen sizes.
+        The content attribute specifies the settings for the viewport.
+        In this case, width=device-width sets the width of the viewport to the width of the device.
+        initial-scale=1.0 sets the initial zoom level when the page is first loaded.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        The title element is used to give webpages a human-readable title which is displayed in our webpage’s browser tab.
+    -->
+    <title>Document</title>
+</head>
+<!--
+    This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
+-->
+<body>
+    
+</body>
+</html>
